@@ -3,7 +3,8 @@
 // @version      1
 // @description  Gets answers for multiple choices!
 // @author       Prime
-// @match        https://edpuzzle.com/assignments/*
+// @match        *://edpuzzle.com/assignments/*
+// @run-at       document-start
 // @grant        none
 // ==/UserScript==
 
