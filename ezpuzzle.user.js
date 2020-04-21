@@ -9,7 +9,6 @@
 
 let tries = 0;
 let isSuccess = false;
-let answers = [];
 
 
 function getAssignment() {
@@ -59,4 +58,4 @@ A: ${choice.body[0].html}
 
 setTimeout(() => {
   sendRequest();
-}, 2000);
+}, 1000);
