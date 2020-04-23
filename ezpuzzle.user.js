@@ -4,7 +4,7 @@
 // @description  Gets answers for multiple choices!
 // @author       Prime
 // @match        *://edpuzzle.com/assignments/*
-// @run-at       document-start
+// @run-at       document-end
 // @grant        none
 // ==/UserScript==
 
