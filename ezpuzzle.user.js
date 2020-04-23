@@ -41,6 +41,7 @@ function sendRequest() {
 }
 
 function parseData(unParsed) {
+  console.clear();
   let data = JSON.parse(unParsed);
   console.log(`[✔️] Got the answers! 😉`);
   data.medias[0].questions.forEach(questions => {
@@ -58,5 +59,6 @@ A: ${choice.body[0].html}
 
 
 setTimeout(() => {
+  console.clear();
   sendRequest();
 }, 1000);
